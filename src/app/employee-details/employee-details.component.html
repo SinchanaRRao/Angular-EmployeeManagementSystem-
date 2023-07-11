@@ -1,0 +1,33 @@
+<h3>Employee Details</h3>
+
+<div class="details">
+  <div>
+    <label><b>Id:</b></label>
+    {{ this.employeeService.index+1}}
+  </div>
+
+  <div>
+    <label><b>Name:</b></label>
+    {{ this.employeeService.employees[index].name}}
+  </div>
+
+  <div>
+    <label><b>Location:</b></label>
+    {{ this.employeeService.employees[index].location}}
+  </div>
+
+  <div>
+    <label><b>EmailId:</b></label>
+    {{ this.employeeService.employees[index].email }}
+  </div>
+
+  <div>
+    <label><b>Mobile:</b></label>
+    {{ this.employeeService.employees[index].mobile }}
+  </div>
+
+  <div>
+    <a routerLink="" (click)="goToEmployeeList()">BACK</a>
+  </div>
+</div>
+

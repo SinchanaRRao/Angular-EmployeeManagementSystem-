@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=text],select,textarea{
+    padding:6px;
+    border: 1px solid
+}
+
+label{
+    padding : 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit]{
+    background-color: skyblue;
+    color:black;
+    padding :  12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:right;
+    
+}
